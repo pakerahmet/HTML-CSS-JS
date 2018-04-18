@@ -1,0 +1,39 @@
+body{
+	background-image:url(back.jpg);
+	background-size: 100% 100%;
+}
+
+img{
+	width: 320px;
+	-webkit-transition: width 0.3s;
+	
+}
+
+img#papaz{
+	position: absolute;
+	left: 50%;
+	margin-left: -150px;
+	margin-top: 60px;
+
+}
+
+img#as{
+	position: absolute;
+	margin-left: 140px;
+	top: 100px;
+	-webkit-transform:rotate(-10deg);
+
+}
+
+img#joker{
+	position: absolute;
+	right: 120px;
+	top: 100px;
+	-webkit-transform:rotate(10deg);
+}
+
+img:hover{
+	width: 380px;
+	z-index: 2;
+
+}
